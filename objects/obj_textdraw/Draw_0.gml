@@ -1,0 +1,6 @@
+draw_rectangle_color(x, y, (x + 960), (y + 256), c_green, c_green, c_green, c_green, false)
+draw_line_color(x, y, (x + 960), y, c_ltgray, c_ltgray)
+draw_set_font(selectedfont)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+draw_text((xi + 480), (yi + 96), text)
