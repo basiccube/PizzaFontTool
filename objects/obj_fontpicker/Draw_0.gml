@@ -1,6 +1,7 @@
 draw_set_font(global.creditsfont)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
+
 if (currentfont == global.bigfont)
 	draw_text(x, y, "Current font: bigfont")
 if (currentfont == global.creditsfont)

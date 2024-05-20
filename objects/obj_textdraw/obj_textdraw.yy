@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_textdraw",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_textdraw",
+    "path": "sprites/spr_textdraw/spr_textdraw.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

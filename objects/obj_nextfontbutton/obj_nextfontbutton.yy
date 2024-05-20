@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_nextfontbutton",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_arrowbutton",
+    "path": "sprites/spr_arrowbutton/spr_arrowbutton.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -26,11 +29,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Buttons and Options",
+    "path": "folders/Objects/Buttons and Options.yy",
   },
 }

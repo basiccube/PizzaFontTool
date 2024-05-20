@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_fontpicker",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_fontpicker",
+    "path": "sprites/spr_fontpicker/spr_fontpicker.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

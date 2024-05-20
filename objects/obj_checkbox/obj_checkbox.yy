@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_checkbox",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_checkbox",
+    "path": "sprites/spr_checkbox/spr_checkbox.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

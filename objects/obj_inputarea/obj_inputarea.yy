@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_inputarea",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_inputarea",
+    "path": "sprites/spr_inputarea/spr_inputarea.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

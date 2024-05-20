@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_lineendbutton",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_button",
+    "path": "sprites/spr_button/spr_button.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -31,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Buttons and Options",
+    "path": "folders/Objects/Buttons and Options.yy",
   },
 }

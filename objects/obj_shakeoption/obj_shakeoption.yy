@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_shakeoption",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_checkbox",
+    "path": "sprites/spr_checkbox/spr_checkbox.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -34,7 +37,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Buttons and Options",
+    "path": "folders/Objects/Buttons and Options.yy",
   },
 }
