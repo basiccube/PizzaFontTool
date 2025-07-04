@@ -1,6 +1,15 @@
-if (instance_position(mouse_x, mouse_y, object_index) && !mouse_check_button(mb_left))
-	sprite_index = spr_button_hover
-else if (instance_position(mouse_x, mouse_y, object_index) && mouse_check_button(mb_left))
-	sprite_index = spr_button_down
+if position_meeting(realmouse_x, realmouse_y, id)
+{
+	window_set_cursor(cr_handpoint)
+	if mouse_check_button(mb_left)
+		image_index = 2
+	else
+		image_index = 1
+}
 else
-	sprite_index = spr_button
+	image_index = 0
+
+if rightanchor
+	x = room_width - xdist
+if bottomanchor
+	y = room_height - ydist

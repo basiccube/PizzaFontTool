@@ -1,2 +1,0 @@
-text = ""
-checked = false
