@@ -2,8 +2,8 @@ with (obj_inputBox)
 	other.text = inputtext
 
 with (obj_currentFont)
-	other.selectedfont = currentfont
-if (selectedfont == global.bigfont || selectedfont == global.smallfont)
+	other.font = currentfont
+if font.upper
 	text = string_upper(text)
 
 var inputScale = 0
