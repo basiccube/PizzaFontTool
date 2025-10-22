@@ -4,7 +4,7 @@
   "name": "Windows",
   "option_windows_display_name": "PizzaFontTool",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "1.2.0.0",
+  "option_windows_version": "1.2.1.0",
   "option_windows_company_info": "basiccube",
   "option_windows_product_info": "PizzaFontTool",
   "option_windows_copyright_info": "Pizza Tower is made by Tour De Pizza.",
